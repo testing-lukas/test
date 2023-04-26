@@ -144,12 +144,7 @@ const names = friends.map(friend => {
     birthYear: 2023 - friend.age
   };
 });
-console.log(names);
 
 const firstGreen = friends.find(friend => friend.favColor === "green");
 
-console.log(firstGreen);
-
 const withPets = friends.filter(friend => friend.pets.length > 2);
-
-console.log(withPets);
